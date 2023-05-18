@@ -1,0 +1,256 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+\usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small#2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%
+  
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape RAFAA BENRHOUMA} \\ \vspace{10pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:21651077434}{\color{blue}+216 51 077 434}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:raferhouma10@gmail.com}{\color{blue}raferhouma10@gmail.com}
+    $|$ 
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/rafaarhouma/}{\color{blue}LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/rafaa1999}{\color{blue}GitHub}
+    $|$
+    % \faGlobe \hspace{.5pt} \href{https://arasgungore.github.io}{Portfolio}
+    % $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/National+Engineering+School+of+Gabes/@33.8510854,10.1021375,17z/data=!3m1!4b1!4m6!3m5!1s0x12556e3f864b634f:0xdc9df2154f7ac913!8m2!3d33.8510854!4d10.1047178!16s%2Fg%2F121v7k4f2}{\color{blue}Tunisia}
+\end{center}
+%---------- HEADING ----------
+
+\section{Education}
+
+  \vspace{4pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {National Engineering School of Gabes (\href{https://enig.rnu.tn/}{\color{blue}\textit{ENIG}})
+      }{Tunisia}
+      {Information and Communications Technology (ICT) Engineering}{Sep 2020 \textbf{--} Jun 2024}
+    \resumeSubheading
+      {Higher School of Science and Technology of Hammam Sousse (\href{}{\color{blue}\textit{ESSTHS}})
+      }{Tunisia}
+      {Scientific preparatory cycle: Physics - Chemistry}{Sep 2018 \textbf{--} Jun 2020}
+    
+  \resumeSubHeadingListEnd
+
+  %----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Tunisie Telecom}{Tunisia}
+      {Network Architect Intern}{Jun 2021 \textbf{--} Jul 2021}
+        \resumeItemListStart
+            \resumeItem{ Designed and maintained network infrastructure and analyzed its requirements.}
+            \resumeItem{Troubleshoot network issues.}
+            \resumeItem{\textbf{Technologies:} Packet Tracer, Linux, Wireshark}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Video Traker} $|$ \emph{\href{https://github.com/rafaa1999/Video_Tracker}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Tried to build a full-stack project which is a voted video request app that is built with pure JavaScript code without using any external utilities or libraries to get hands-on with the fundamentals of the manipulation of the DOM.}
+            \resumeItem{Created a visually appealing user interface.}
+            \resumeItem{Developed RESTful APIs for handling CRUD operations, including menu management and vote processing}
+            \resumeItem{\textbf{Technologies:} Node.js, Js, Mongoose, Bootstrap}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{ReactJs Architecture} $|$ \emph{\href{https://github.com/rafaa1999/ReactJs_Architecture}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Tried to build a front-end project which is a CRUD application focusing on the client-side part and dealing with most React.js topics.}
+            \resumeItem{Implemented responsive design principles for optimal viewing experience.}
+            \resumeItem{Integrated third-party APIs}
+            % \resumeItem{}
+            \resumeItem{\textbf{Technologies:} React.js, Bootstrap. React Hooks, Fake REST API }
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Backend Concept} $|$ \emph{\href{https://github.com/rafaa1999/Backend_Node.js}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Tried to build a back-end project which touched almost all the concepts of the server-side part using several techniques.}
+            \resumeItem{Implemented a secure user authentication system with role-based access control.}
+            \resumeItem{Developed RESTful APIs for handling CRUD operations}
+            \resumeItem{\textbf{Technologies:} Node.js, i18n, validation, jwt,error-handler, middleware, authorization, authentication, logger, sqlite3 }
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming:}{ Java(Proficient), JS(Proficient), SQL(Proficient), TS(Still Learning), Golang(Still Learning)} \\ \vspace{3pt}
+
+        \textbf{Web Frameworks:}{ Spring Boot, Node.js, React.js}
+        
+        \textbf{Testing Frameworks:}{ JUnit, TestNG, Mockito, Cucumber, Selenium, Jest } \\ \vspace{3pt}
+
+        \textbf{DevOps:}{ Docker, Kubernetes, GitHub actions, Git, Jira } \\ \vspace{3pt}
+        
+        \textbf{Languages:}{ English (Proficient), French (Proficient), Arabe (Native)}
+
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- CERTIFICATES -----------
+
+\section{Certificates}
+  \resumeSubHeadingListStart
+
+
+%     \newcommand{\resumeProjectHeading}[2]{
+%     \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+%       \small#1 & #2 \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+  
+    \resumeProjectHeading
+        {\textbf{Spring Boot} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/Q9YF66W6MGT2}{\color{blue}LearnQuest}}}{\textbf{Spring Testing} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/QD6HC7YF4XX7}{\color{blue}LearnQuest}}}
+        \vspace{-9pt}
+
+    \resumeProjectHeading
+        {\textbf{Java Core Specialization} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/ZGNWE48MMSYK}{\color{blue}LearnQuest}}}{\textbf{Oracle SQL Databases Specialization} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/GYQ7PEX6GKBW}{\color{blue}LearnQuest}}}
+        \vspace{-9pt}
+
+    \resumeProjectHeading
+        {\textbf{Fundamentals of Kubernetes Deployment} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/certificate/7GSU6L4G6CYN}{\color{blue}LearnQuest}}}{\textbf{Version Control with Git} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/certificate/5WAM8EPSTHN2}{\color{blue}Atlassian}}}
+        \vspace{-9pt}
+
+        \resumeProjectHeading
+        {\textbf{Scrum Fundamentals Certified} $|$ \emph{\href{https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-RafeeBenrhouma-942867.pdf}{\color{blue}ScrumStudy}}}{\textbf{Cloud Computing Basics} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/certificate/2AMFE4XEG42Y}{\color{blue}LearnQuest}}}
+
+  \resumeSubHeadingListEnd
+
+
+\end{document}
